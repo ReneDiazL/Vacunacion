@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e3f1f1;  
+    font-family: Source Sans Pro,Helvetica,Arial,sans-serif !important;
+    font-size: 17px !important;   
+}
+
+.conten{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-header-image{
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(39, 76, 179, 0.75),
+    rgba(95, 95, 179, 0.75)), url(../imags/portada.jpg);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+header.down{
+    background: #13a2b8;
+    padding: 15px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header .logo{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8em;
+    transition: 1.5s;
+    text-decoration: none;
+    margin-left: -35px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    display: block;
+    padding: 10px;
+}
+
+
+header.down .logo, header.down ul li a{
+    color: #e3f1f1;
+}
+
+.azul{
+    background-color: #008cc9;
+}
+
+.menu ul li a:hover, .btnH{
+    background-color: #203239;
+    border-radius: 10px;
+}
+
+.btnH{
+    padding: 15px;
+}
+
+.menu{
+    margin-left: -55px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footerbig, .footermid, a{
+    font-size: 16px;
+    color: #fff;
+    font-family: helvetica;
+}
+
+
+.h4, h4{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.flexrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 180px;
+    padding-bottom: 32px;
+}
+
+footer ul li a .footermid {
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.footermid a, .footerbig a {
+    text-decoration: none;
+}
+
+.imgvacuna{
+    width: 100vh;
+    height: 600px;
+    position: relative;
+    float: right;
+    background-image: linear-gradient(to bottom left, rgba(7, 69, 241, 0.3),
+    rgba(16, 76, 243, 0)), url(../imags/Vacunacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgwoman{
+    width: 90vh;
+    height: 500px;
+    position: relative;
+    float: left;
+    background-image: linear-gradient(rgba(7, 69, 241, 0.135),
+    rgba(16, 76, 243, 0)), url(../imags/front-woman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 250px;
+
+}
+
+  
+.triangulo{
+    width: 0;
+    border-color: transparent transparent rgb(207, 197, 197, 0.25) transparent;
+    border-width: 0 100px 2.5rem 100px;
+    border-style: solid;
+    position: absolute;
+    transform: rotateX(180deg);
+    margin-left: 50px;
+}
+
+.triangulo2{
+    width: 0;
+    border-color: transparent rgb(207, 197, 197, 0.25) transparent;
+    border-style: solid;
+    border-width: 100px 100px 100px 0;
+    position: absolute;
+    margin: 200px 0px 0px 605px;
+}
+
+.triangulo3{
+    width: 0;
+    border-color: transparent transparent transparent rgb(207, 197, 197, 0.25);
+    border-style: solid;
+    border-width: 80px 0px 80px 50px;
+    position: absolute;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+
+
+.Fight_Virus{
+    background-color: rgba(252, 250, 250, 0.993);  
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+
+.Fight_Virus2{
+    background-color: rgba(252, 250, 250, 0.993);  
+    width: 100%;
+    height: 700px;
+}
+
+.Fight_Virus3{
+    background-color: rgba(252, 250, 250, 0.993);  
+    width: 100%;
+    height: 900px;
+}
+
+.Fight_Virus4{
+    background-color: rgba(252, 250, 250, 0.993);  
+    width: 100%;
+    height: 750px;
+}
+
+.titlevirus{
+    padding-top: 50px;
+}
+
+
+h1 {
+    margin: 40 40 40px;
+    padding-left: 100px;
+    color: #00008B;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 350%;
+}
+h2 {
+    margin: 40 40 40px;
+    padding-left: 100px;
+    color: #00008B;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 350%;
+}
+
+.text1{
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 800px;
+}
+
+.calendario{
+    margin-top: 100px;
+}
+
+.ubicacion{
+    margin-top: 100px;
+    width:  60px;
+    height: 45; 
+}
+
+.logos{
+    margin: 30px 0 0 120px;
+}
+
+.espacio{
+    width: 80px;
+    height: 5px;
+}
+
+.espacio3{
+    height: 20px;
+}
+
+.logoclock,.Fecha{
+    margin: 50px 0 0 100px;
+}
+
+select{
+    margin-top: 10px;
+    background-color: #dcdcf7;
+}
+
+
+.Proteccion{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    background-image: url(../imags/Escudo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 180px;
+    padding: 8px;
+}
+
+.Protection{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    border-radius: 180px;
+    padding: 8px;
+    color: #00008B;
+    font-size: medium;
+}
+
+.Seleccion{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    background-image: url(../imags/Estrella.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 180px;
+    padding: 8px;
+}
+.Selection{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    border-radius: 180px;
+    padding: 8px;
+    color: #00008B;
+    font-size: medium;
+}
+
+.programa{
+    position: relative;
+    margin: 180px 0px 50px 0px;
+}
+
+.ImgReloj{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    background-image: url(../imags/Reloj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 180px;
+    padding: 8px;
+}
+
+.textReloj{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    border-radius: 180px;
+    padding: 8px;
+    color: #00008B;
+    font-size: 24px;
+    font-weight: lighter;   
+}
+
+
+
+.imgdate{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    background-image: url(../imags/Calendario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 180px;
+    padding: 8px;
+}
+
+.Inject{
+    min-width: none;
+    height: 4px;
+    position: relative;
+    float: left;
+    background-image: url(../imags/Inject.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 180px;
+    padding: 8px;
+}
+
+.Date, select{
+    min-width: none;
+    position: relative;
+    float: left;
+    border-radius: 180px;
+    padding: 8px;
+    color: #00008B;
+    margin-top: 10px;
+    font-family: 
+	'Quicksand', sans-serif;
+    
+}
+
+select{
+    display: inline-block;
+	cursor: pointer;
+  	height: 40px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0 ;
+	color: #7b7b7b;
+	color: #999;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+
+.Datos{
+    height: 5px;
+    padding: 10px 260px 0 40px;
+    background-color: rgb(248, 244, 244, 0.66);;
+    color: #fff;
+    position: relative;
+    float: left; right: -200px;
+    top: -150px;
+}
+
+.Envio{
+    width: 150px;
+    height: 80px;
+    background-color: rgba(2, 39, 107, 0.952);;
+    color: #fff;
+    position: relative;
+    top: -15px;
+    right: -150px;
+    border-radius: 180px;
+    font-size: 15px;
+    font-weight: bolder;   
+}
+
+.Marcas{
+    width: 100%;
+    opacity: 0.2;
+    position: relative;
+    top: -100px;
+    padding: 0 100px 0 100px;
+}
+
+.Astra{
+    position: relative;
+    background: url(../imags/Astra.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.Sinovac{
+    position: relative;
+    background-image: url(../imags/sinovac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.Pfizer{
+    position: relative;
+    background-image: url(../imags/Pfizer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.Moderna{
+    position: relative;
+    background-image: url(../imags/moderna.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.Trp{
+    width: 246px;
+    height: 72px;
+}
+
+.Minimize{
+    position: relative;
+    float: left;
+    background-image: url(../imags/Minimize.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
+.Forming{
+    position: relative;
+    float: left;
+    background-image: url(../imags/Forming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Protecting{
+    position: relative;
+    float: left;
+    background-image: url(../imags/Protecting.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Creating{
+    position: relative;
+    float: left;
+    background-image: url(../imags/Creating.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Programas{
+    align-content: center;
+    margin: 60px 10px 0 80px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.Programas2{
+    align-content: center;
+    margin: 60px 10px 0 80px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.icon{
+    margin: 0 0 30px 0;
+    position: relative;
+    top: 15px;
+}
+
+
+.Titulo{
+    width: 236px;
+    height: 42px;
+    font-weight:bolder;
+    font-size: 18px;
+    color: #030352af;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+.text2{
+    width: 236px;
+    height: 42px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.Ptext3{
+    position: relative;
+    top: 30px;
+}
+
+.Panding2{
+    margin-top: -100px;
+}
+
+.Panding3{
+    padding-right: 200px;
+    padding-left: 200px;
+    height: 150px;
+    margin-left: 160px;
+    position: relative;
+    top: 70px; left: 50px;
+}
+
+.Seccion{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+.Tabla1,.Tabla2,.Tabla3,.Tabla4{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+.Tabla2,.Tabla3,.Tabla4{
+    margin-left: 20px;
+}
+
+
+.Tabla1,.Tabla2,.Tabla3,.Tabla4{
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: #d8d8e6;
+}
+
+
+.Titulo1{
+    font-size: 40px;
+}
+
+
+.card-recomendaciones {
+    display: inline;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+ 
+.parrafo-recomendaciones h2 {
+    color: #1f3e72;
+    font-size: 30px;
+}
+
+.parrafo-recomendaciones .parrafo {
+    color: #6d7b93;
+    font-size: 20px;
+}
+
+.card-recomendaciones .bebidas-alcholicas, .comida-sana, .estres, .dormir, .ejercicio {
+    width: 500px;
+    display: inline-block;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #6d7b93;
+    font-weight: bold;
+}
+
+.card-recomendaciones .bebidas-alcholicas img {
+    width: 25px;
+    float: left;
+    padding-right: 20px;
+}
+  
+.card-recomendaciones .bebidas-alcholicas p {
+    float: left;
+    padding-right: 20px;
+}
+
+.card-recomendaciones .bebidas-alcholicas .derecha {
+    float: right;
+    padding-right: 50px;
+}
+
+
+.card-recomendaciones .estres img {
+    width: 25px;
+    float: left;
+    padding-right: 20px;
+}
+  
+.card-recomendaciones .estres p {
+    float: left;
+    padding-right: 20px;
+}
+
+.estres{
+    height: 150px;
+}
+
+.card-recomendaciones .estres .derecha {
+    float: right;
+    padding-right: 50px;
+}
+
+.card-recomendaciones .estres .alineacion {
+    padding-left: 40px;
+}
+
+.card-recomendaciones .comida-sana img {
+    width: 25px;
+    float: left;
+    padding-right: 20px;
+}
+  
+.card-recomendaciones .comida-sana p {
+    float: left;
+    padding-right: 20px;
+}
+
+.card-recomendaciones .comida-sana .derecha {
+    float: right;
+    padding-right: 50px;
+}
+  
+.card-recomendaciones .dormir img {
+    width: 25px;
+    float: left;
+    padding-right: 20px;
+}
+  
+.card-recomendaciones .dormir p {
+    float: left;
+    padding-right: 20px;
+}
+
+.card-recomendaciones .dormir .derecha {
+    float: right;
+    padding-right: 50px;
+}
+
+.card-recomendaciones .ejercicio img {
+    width: 25px;
+    float: left;
+    padding-right: 20px;
+}
+  
+.card-recomendaciones .ejercicio p {
+    float: left;
+    padding-right: 20px;
+}
+
+.card-recomendaciones .ejercicio .derecha {
+    float: right;
+    padding-right: 50px;
+}
+
+h2 {
+    color: #1f3e72;
+    font-size: 30px;
+}
+  
+.triangulo4{
+    width: 0;
+    border-color: transparent transparent rgb(207, 197, 197, 0.25) transparent;
+    border-style: solid;
+    border-width: 100px 0px 100px 80px;
+    position: relative;
+    float: right;
+    margin: 76px 0px 0px 0px;
+}
+
+.imgman{
+    width: 90vh;
+    height: 500px;
+    position: relative;
+    float: right;
+    background-image: linear-gradient(rgba(7, 69, 241, 0.135),
+    rgba(16, 76, 243, 0)), url(../imags/front-man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 150px;
+}
+
+.triangulo5{
+    width: 0;
+    border-color: rgb(207, 197, 197, 0.25) transparent transparent transparent;
+    border-style: solid;
+    border-width: 100px 0px 100px 80px;
+    position: relative;
+    float: right;
+    left: 572px;
+}
+
+.datos{
+    position: relative;
+    left: -80px;
+    font-size: 40px;
+    color:rgba(39, 76, 179, 0.75);
+}
+
+.datos2{
+    position: relative;
+    left: -80px;
+    font-size: 29px;
+    color:rgba(39, 76, 179, 0.75);
+}
+.datos1{
+    left: 90px;
+    font-size: 25px;
+    color:rgba(129, 129, 131, 0.75);
+}
+
+.btn-emergencia{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    left: 50px;
+    position: relative;
+    font-size: 15px;
+    background-color:rgb(13, 32, 117);
+    color: #d8d8e6;
+}
+
+.Tabla5,.Tabla6,.Tabla7,.Tabla8{
+    left: -80px;
+    position: relative;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #d8d8e6;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.Call{
+    position: relative;
+    float: left;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/561/561253.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Chat{
+    position: relative;
+    float: left;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2190/2190552.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.VideoCall{
+    position: relative;
+    float: left;
+    background-image: url(../imags/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Message{
+    position: relative;
+    float: left;
+    background-image: url(../imags/mensaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Tabla5, .Tabla6, .Tabla7, .Tabla8{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.Tabla6,.Tabla8{
+    margin-left: 20px;
+}
+
+.Tabla7,.Tabla8{
+    top: 20px;
+}
+
+.icon1{
+    margin: 0 0 30px 15px;
+    position: relative;
+    top: 15px;
+}
+
